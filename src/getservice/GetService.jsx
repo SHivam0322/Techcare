@@ -228,24 +228,7 @@ const GetService = ({ submitForm }) => {
                     </div>  
                 </div>
                 </div>
-                <div className="formr-inputs mt-2">
-                <div className='row'>
-                    <div className='mb-3 col-md-4'>
-                        <label class='formr-label' className='formr-label'>
-                            City
-                        </label>
-                        <input
-                        class='formr-control'
-                        className='formr-input'
-                        id='exampleFormContrlTextarea1'
-                        rows='1'
-                        name="city"
-                        onChange={handleChange}
-                        value={values.city}/>
-                        {errors.city && <p>{errors.city}</p>}
-                    </div>
-                    </div>
-                    </div>
+        
                  <div className="formr-inputs">
                  <div className='col-12 my-4'>
                      <div class='form-check'>

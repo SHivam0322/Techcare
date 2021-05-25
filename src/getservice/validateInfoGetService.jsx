@@ -1,27 +1,38 @@
 export default function validateInfoGetService(values){
     let errors={};
 
-if(!values.fullname){
-    errors.fullname="Name cannot be empty";
-}else if(!/^[A-Za-z]+/.test(values.fullname)){
-    errors.fullname='Enter a valid name';
-}else if(/\d+/g.test(values.fullname)){
-    errors.fullname='Enter a valid name';
+if(!values.patientname){
+    errors.patientname="Name cannot be empty";
+}else if(!/^[A-Za-z]+/.test(values.patientname)){
+    errors.patientname='Enter a valid name';
+}else if(/\d+/g.test(values.patientname)){
+    errors.patientname='Enter a valid name';
 }
 
-if(!values.dob){
-    errors.dob="Please select date of birth";
+if(!values.age){
+    errors.age="Enter age";
 }
 
 if(!values.gender){
     errors.gender="Please select Gender";
 }
 
-if(!values.profilephoto){
-    errors.profilephoto="Profile photo is required";
-}else if(!values.profilephoto.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
-    errors.profilephoto="Please select valid JPG JPEG PNG SVG PDF format.";
+if(!values.diseasedetails){
+    errors.diseasedetails="Enter disease details";
 }
+
+if(!values.prescription){
+    errors.prescription="Prescription is required";
+}else if(!values.prescription.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
+    errors.prescription="Please select valid JPG JPEG PNG SVG PDF format.";
+}
+
+if(!values.aadharcard){
+    errors.aadharcard="Identity proof is required";
+}else if(!values.aadharcard.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
+    errors.aadharcard="Please select valid JPG JPEG PNG SVG PDF format.";
+}
+
 
 if(!values.address){
     errors.address="Please select address";
@@ -66,52 +77,6 @@ if(!values.contactnumber2){
     errors.contactnumber2="Enter valid contact number";
 }else if(values.contactnumber2.length !=10){
     errors.contactnumber2="Enter valid 10 digit contact numbere";
-}
-
-if(!values.email){
-    errors.email="Email adrees cannot be empty";
-}else if(!/\S+@\S+\.\S+/.test(values.email)){
-    errors.email="Enter valid email address";
-}
-
-if(!values.specialization){
-    errors.specialization="Please select specialization";
-}
-
-if(!values.institutename){
-    errors.institutename="Enter institute name";
-}
-
-if(!values.details){
-    errors.details="Enter work experience details";
-}
-
-if(!values.tow){
-    errors.tow="Please select type of work you are interested in.";
-}
-
-if(!values.aadharcard){
-    errors.aadharcard="Identity proof is required";
-}else if(!values.aadharcard.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
-    errors.aadharcard="Please select valid JPG JPEG PNG SVG PDF format.";
-}
-
-if(!values.electricitybill){
-    errors.electricitybill="Address proof is required";
-}else if(!values.electricitybill.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
-    errors.electricitybill="Please select valid JPG JPEG PNG SVG PDF format.";
-}
-
-if(!values.pancard){
-    errors.pancard="Pancard is required";
-}else if(!values.pancard.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
-    errors.pancard="Please select valid JPG JPEG PNG SVG PDF format.";
-}
-
-if(!values.degree){
-    errors.degree="Educational qualification proof is required";
-}else if(!values.degree.match(/\.(jpg|jpeg|png|svg|pdf)$/)){
-    errors.degree="Please select valid JPG JPEG PNG SVG PDF format.";
 }
 
 if(!values.agreebox){
