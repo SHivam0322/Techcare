@@ -11,15 +11,15 @@ const FormLogin = ({ submitForm }) => {
   );
 
   return (
-    <div className='formverify-content-right'>
-      <form onSubmit={handleSubmit} className='form' noValidate>
+    <div className='formverifyl-content-right'>
+      <form onSubmit={handleSubmit} className='forml' noValidate>
         <h1>
          Log In
         </h1>
-        <div className='form-inputs'>
-          <label className='form-label'>Email</label>
+        <div className='forml-inputs'>
+          <label className='forml-label'>Email</label>
           <input
-            className='form-input'
+            className='forml-input'
             type='text'
             name='email'
             placeholder='Enter email'
@@ -28,10 +28,10 @@ const FormLogin = ({ submitForm }) => {
           />
           {errors.email && <p>{errors.email}</p>}
         </div>
-        <div className='form-inputs'>
-          <label className='form-label'>Password</label>
+        <div className='forml-inputs'>
+          <label className='forml-label'>Password</label>
           <input
-            className='form-input'
+            className='forml-input'
             type='password'
             name='password'
             placeholder='Enter password'
@@ -41,7 +41,7 @@ const FormLogin = ({ submitForm }) => {
           {errors.password && <p>{errors.password}</p>}
         </div>
         
-        <button className='form-input-btn' type='submit' onClick={handleSubmit}>
+        <button className='forml-input-btn' type='submit' onClick={handleSubmit}>
         Log In
         </button>
        

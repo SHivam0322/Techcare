@@ -4,9 +4,9 @@ import './Forml.css';
 
 const FormlSuccess = () => {
   return (
-    <div className='formverify-content-right'>
-      <h1 className='form-success my-5'>Loggedin Successfully!</h1>
-    <a href='home' className='acccreated'>Home</a>
+    <div className='formverifyl-content-right'>
+      <h1 className='forml-success my-5'>Logged In Successfully!</h1>
+    <a href='home' className='acccreatedl'>Home</a>
     </div>
   );
 };

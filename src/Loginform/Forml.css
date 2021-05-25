@@ -1,4 +1,4 @@
-.form-container {
+.forml-container {
   margin-left: 30vw;
   margin-top: 10vw;
   width: 20vw;
@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.verify-form-container{
+.verify-forml-container{
 margin-top: 0vw;
   width: 5vw;
   margin-bottom: 10vh;
@@ -39,7 +39,7 @@ margin-top: 0vw;
   position: relative;
 } */
 
-.form-img {
+.forml-img {
   width: 80%;
   height: 80%;
   position: absolute;
@@ -48,7 +48,7 @@ margin-top: 0vw;
   transform: translate(-50%, -50%);
 }
 
-.form-img-2 {
+.forml-img-2 {
   width: 60%;
   height: 60%;
   position: absolute;
@@ -57,13 +57,13 @@ margin-top: 0vw;
   transform: translate(-50%, -50%);
 }
 
-.form-success {
+.forml-success {
   text-align: center;
   font-size: 24px;
   margin-top: 80px;
   color: #fff;
 }
-.formverify-content-right{
+.formverifyl-content-right{
    margin-left:10vw;
     margin-top: 5vh;
     width:25vw;
@@ -73,7 +73,7 @@ margin-top: 0vw;
   }
   
 
-.form-content-right {
+.forml-content-right {
   margin-top: 5vh;
   width:35vw;
   height: 70vh;
@@ -81,7 +81,7 @@ margin-top: 0vw;
   background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
 }
 
-.form {
+.forml {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -94,7 +94,7 @@ margin-top: 0vw;
   align-items: center;
 }
 
-.form h1 {
+.forml h1 {
   font-size: 1rem;
   text-align: start;
   width: 80%;
@@ -102,18 +102,18 @@ margin-top: 0vw;
   color: #fff;
 }
 
-.form-inputs {
+.forml-inputs {
   margin-bottom: 0.5rem;
   width: 80%;
 }
 
-.form-inputs p {
+.forml-inputs p {
   font-size: 0.8rem;
   margin-top: 0.5rem;
   color: #f00e0e;
 }
 
-.form-label {
+.forml-label {
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 600;
@@ -121,7 +121,7 @@ margin-top: 0vw;
   color: #fff;
 }
 
-.form-input {
+.forml-input {
   display: block;
   padding-left: 10px;
   outline: none;
@@ -131,12 +131,12 @@ margin-top: 0vw;
   border: none;
 }
 
-.form-input::placeholder {
+.forml-input::placeholder {
   color: #595959;
   font-size: 12px;
 }
 
-.form-input-btn {
+.forml-input-btn {
   width: 80%;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -155,7 +155,7 @@ margin-top: 0vw;
   font-size: 1rem;
 }
 
-.form-input-btn:hover {
+.forml-input-btn:hover {
   cursor: pointer;
   background: linear-gradient(
     90deg,
@@ -165,7 +165,7 @@ margin-top: 0vw;
   transition: all 0.4s ease-out;
 }
 
-.form-input-login {
+.forml-input-login {
   font-size: 0.8rem;
   margin-top: 10px;
   color: #fff;
@@ -173,13 +173,13 @@ margin-top: 0vw;
   text-align: center;
 }
 
-.form-input-login a {
+.forml-input-login a {
   text-decoration: none;
   color: #27cdff;
   font-weight: 600;
 }
 
-.acccreated{
+.acccreatedl{
   text-decoration: none;
   display: block;
   text-align: center;

@@ -18,7 +18,7 @@ const block = () => {
       <div className="carousel-item overflow-auto text-center" data-bs-interval="5000">
        <h2>For Nurses</h2>
        <p className='text-block'>TechCare gives you an opportunity to serve the world with ur skills and experience and help us in our initiative of serving the best to the world.
-       Keep growing with us and get a source of income. <br/><NavLink className='carousel-btns' to=''>Register your Service</NavLink></p>
+       Keep growing with us and get a source of income. <br/><NavLink className='carousel-btns' to='/register'>Register your Service</NavLink></p>
       
       </div>
       <div className="carousel-item overflow-auto text-center">

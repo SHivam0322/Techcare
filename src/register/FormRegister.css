@@ -1,0 +1,235 @@
+.formr-container{
+    margin-top:5vh;
+    width:100vw;
+    margin-left: 8vw;
+    /* box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2); */
+    position:relative;
+    border-radius: 10px;
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.formr-success{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color:#fff;
+}
+
+.formr-success-acc{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color:#fff;
+}
+
+.formr-content-right{
+    width:100vw;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+.formr{
+    margin-left: -10vw;
+    margin-bottom: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:5vh;
+    transform:translate(-50%,-50%);
+    /* width: 90%; */
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.formr h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.firsth1{
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.formr-inputs{
+    margin-bottom: 0.5rem;
+    width: 80%;
+}
+
+.formr-inputs p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 3px;
+    color: #f00e0e;
+}
+
+.formr-label{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: black;
+    font-weight: 500;
+}
+
+.agreebox{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 3px;
+    color: black;
+}
+
+.formr-check-label{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: black;
+    font-weight: 500;
+}
+
+.formr-input{
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width:100%;
+    border: none;
+    background-color:whitesmoke;
+}
+
+.formr-input::placeholder{
+    color: black;
+    font-size: 12px;
+}
+
+.formr-input-btn {
+    width: 20vw;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 100vh;
+    border-radius: 2px;
+    margin-left: -10vw;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .formr-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+
+  .formr-input-login{
+      font-size: 0.8rem;
+      margin-top: 10px;
+      color: white;
+      width: 80%;
+      text-align: center;
+  }
+
+  .formr-control{
+      display: block;
+      padding-left: 10px;
+      outline: none;
+      border-radius: 2px;
+      height: 40px;
+      width: 100%;
+      border: none;
+      background-color: whitesmoke;
+  }
+
+  .specialization-label{
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-right: 6px;
+  }
+
+  .specialization-select{
+      margin-top: 1vh;
+    display: inline;
+    outline: none;
+    height: 30px;
+    width: 52vw;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .formrr-success-acc{
+      display: block;
+      text-align: start;
+      font-size: 24px;
+      margin-top: 20px;
+      color: white;
+  }
+
+  .scsrrlink{
+      color:aqua;
+      display: block;
+      transition: color 0.5s ease-in-out;
+      text-decoration: none;
+      text-align: start;
+  }
+  .scsrrlink:hover{
+      color:tomato;
+  }
+
+  .formrr-content-right{
+      color: black;
+  }
+
+  .formrr-text{
+      display: block;
+      width: 20vw;
+      margin-left: 4vw;
+    margin-top: 10vh;
+    }
+
+    .scsrrtlink{
+        color:blue;
+        
+        transition: color 0.5s ease-in-out;
+        text-decoration: none;
+        text-align: start;
+    }
+    .scsrrtlink:hover{
+        color:tomato;
+    }
+
+    .registersuccess-img{
+        margin-left:1vw;
+        /* margin-top: -60vh; */
+    }
+    .registersuccesstext{
+        display:block;
+        width: 35vw;
+        /* margin-left: 5vw; */
+    }
+
+   

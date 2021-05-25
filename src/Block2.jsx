@@ -18,7 +18,7 @@ const Block2 = () => {
             <div className="col-10 mx-auto">
                 <div className='row'>
                     
-                <div className="card-group">
+                <div className="card-group" >
   
   <div className="card border-0">
     <img src={wheelchair} className="card-img-top pt-3" alt="..."/>
