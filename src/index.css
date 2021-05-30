@@ -207,3 +207,15 @@ section .section-title {
   margin-left: -120px;
 }
 
+.abouttext{
+  display: block;
+  width:60vw;
+  margin-left:0vw;
+}
+
+.about-img{
+  margin-top:3vh;
+  margin-left: 5vw;
+  width:10vw;
+  border-radius:200px;
+}

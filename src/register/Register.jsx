@@ -221,41 +221,56 @@ const Register = ({ submitForm }) => {
                      onChange={handleChange}
                      value={values.specialization}>
                          <option selected>Please select your highest specialization</option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' classNa3me='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
-                         <option values='' className='formr-label'></option>
+                         <option values='' className='formr-label'>10th</option>
+                         <option values='' className='formr-label'>12th</option>
+                         <option values='' className='formr-label'>B.Sc. Nursing</option>
+                         <option values='' className='formr-label'>B.Sc. (Hons.) (Nursing)</option>
+                         <option values='' className='formr-label'>Post Basic B.Sc. Nursing</option>
+                         <option values='' className='formr-label'>Bachelor of Science in Nursing (Post Certificate)</option>
+                         <option values='' className='formr-label'>A.N.M.</option>
+                         <option values='' className='formr-label'>G.N.M.</option>
+                         <option values='' className='formr-label'>Advanced Diploma in Ophthalmic Care Management</option>
+                         <option values='' className='formr-label'>Diploma in Home Nursing</option>
+                         <option values='' className='formr-label'>Diploma in Emergency and Trauma Care Technician</option>
+                         <option values='' className='formr-label'>Diploma in Nursing Administration</option>
+                         <option values='' className='formr-label'>Diploma in Neuro Nursing</option>
+                         <option values='' className='formr-label'>Diploma in Health Assistant (DHA)</option>
+                         <option values='' className='formr-label'>Certificate course in Ayurvedic Nursing</option>
+                         <option values='' className='formr-label'>Certificate in Home Nursing</option>
+                         <option values='' className='formr-label'>Certificate in Maternal and Child Health Care (CMCHC)</option>
+                         <option values='' className='formr-label'>Certificate in Care Waste Management (CHCWM)</option>
+                         <option values='' className='formr-label'>Certificate in Primary Nursing Management (CPNM)</option>
+                         <option values='' className='formr-label'>M.Sc. Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Child Health Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Community Health Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Medical-Surgical Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Maternity Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Paediatric Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Obstetrics and Gynecological Nursing</option>
+                         <option values='' className='formr-label'>M.Sc. in Psychiatric Nursing</option>
+                         <option values='' className='formr-label'>M.D. (Midwifery)</option>
+                         <option values='' className='formr-label'>PhD (Nursing)</option>
+                         <option values='' className='formr-label'>M.Phil Nursing</option>
+                         <option values='' className='formr-label'>Post Basic Diploma in Critical Care Nursing</option>
+                         <option values='' classNa3me='formr-label'>Post Basic Diploma in Orthopedic & Rehabilitation Nursing</option>
+                         <option values='' className='formr-label'>Post Basic Diploma in Operation Room Nursing</option>
+                         <option values='' className='formr-label'>Post Graduate Diploma in Paediatric Critical Care Nursing</option>
+                         <option values='' className='formr-label'>Post Basic Diploma in Ontological Nursing and Rehabilitation Nursing</option>
+                         <option values='' className='formr-label'>Post Graduate Diploma in Neo-Natal Nursing</option>
+                         <option values='' className='formr-label'>Post Graduate Diploma in Emergency Nursing</option>
+                         <option values='' className='formr-label'>BPT - Bachelor of Physio / Physical Therapy</option>
+                         <option values='' className='formr-label'>B.Sc in Physiotherapy</option>
+                         <option values='' className='formr-label'>BOT-Bachelor of Occupational Therapy</option>
+                         <option values='' className='formr-label'>Diploma in Physiotherapy</option>
+                         <option values='' className='formr-label'>Bachelor of Veterinary Science or B.V.Sc.</option>
+                         <option values='' className='formr-label'>Master in Physiotherapy (M.P.T)</option>
+                         <option values='' className='formr-label'>M.Sc. in Physiotherapy</option>
+                         <option values='' className='formr-label'>Master of Physiotherapy (Neurology) </option>
+                         <option values='' className='formr-label'>M.D. in Physiotherapy</option>
+                         <option values='' className='formr-label'>Master of Physiotherapy in Sports Physiotherapy</option>
+                         <option values='' className='formr-label'>PG Diploma in Sports Physiotherapy</option>
+                         <option values='' className='formr-label'>PhD in Physiotherapy</option>
+
                      </select>
                  </div>{errors.specialization && <p>{errors.specialization}</p>}
                  <div className="col-md-12">

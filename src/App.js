@@ -11,6 +11,8 @@ import Form from './Signupform/Form'
 import Forml from './Loginform/Forml'
 import FormRegister from './register/FormRegister';
 import FormGetService from './getservice/FormGetService';
+import About from './About';
+
 
 
 
@@ -21,6 +23,8 @@ function App() {
     <>
     <Navbar/>
     <Switch>
+  
+      <Route exact path='/about' component={About}/>
     <Route exact path='/getservice' component={FormGetService}/>
     <Route exact path='/contact' component={Contact}/>
     <Route exact path ='/home' component={Home}/>

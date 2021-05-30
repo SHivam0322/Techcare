@@ -13,7 +13,7 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
 						<li><NavLink to="">Get Service</NavLink></li>
 						<li><NavLink to="">Carrers</NavLink></li>
-						<li><NavLink to="">About us</NavLink></li>
+						<li><NavLink to="about">About us</NavLink></li>
 						
 					</ul>
 				</div>
@@ -31,7 +31,7 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
 						<li><NavLink to="/contact">Contact Us</NavLink></li>
 						<li><NavLink to="/login">Login</NavLink></li>
-						<li><NavLink to="">Services</NavLink></li>
+						<li><NavLink to="/services">Services</NavLink></li>
 						
 						
 					</ul>
