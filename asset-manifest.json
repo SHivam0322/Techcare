@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Techcare/static/css/main.89b94ecb.chunk.css",
+    "main.js": "/Techcare/static/js/main.a2a537b4.chunk.js",
+    "main.js.map": "/Techcare/static/js/main.a2a537b4.chunk.js.map",
+    "runtime-main.js": "/Techcare/static/js/runtime-main.4ab0e22d.js",
+    "runtime-main.js.map": "/Techcare/static/js/runtime-main.4ab0e22d.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/Techcare/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.7bd02093.chunk.js": "/Techcare/static/js/2.7bd02093.chunk.js",
+    "static/js/2.7bd02093.chunk.js.map": "/Techcare/static/js/2.7bd02093.chunk.js.map",
+    "static/js/3.56c7820e.chunk.js": "/Techcare/static/js/3.56c7820e.chunk.js",
+    "static/js/3.56c7820e.chunk.js.map": "/Techcare/static/js/3.56c7820e.chunk.js.map",
+    "index.html": "/Techcare/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/Techcare/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.89b94ecb.chunk.css.map": "/Techcare/static/css/main.89b94ecb.chunk.css.map",
+    "static/js/2.7bd02093.chunk.js.LICENSE.txt": "/Techcare/static/js/2.7bd02093.chunk.js.LICENSE.txt",
+    "static/media/1.fd514b2e.jpg": "/Techcare/static/media/1.fd514b2e.jpg",
+    "static/media/14.35cdcf22.jpg": "/Techcare/static/media/14.35cdcf22.jpg",
+    "static/media/7.044fd50a.jpg": "/Techcare/static/media/7.044fd50a.jpg",
+    "static/media/baby.d864e0a9.png": "/Techcare/static/media/baby.d864e0a9.png",
+    "static/media/bandade.65a2c4a7.png": "/Techcare/static/media/bandade.65a2c4a7.png",
+    "static/media/bed.870360b3.png": "/Techcare/static/media/bed.870360b3.png",
+    "static/media/contact.a4ea66e3.jpg": "/Techcare/static/media/contact.a4ea66e3.jpg",
+    "static/media/logo.6ce24c58.svg": "/Techcare/static/media/logo.6ce24c58.svg",
+    "static/media/nurse.1c032dfa.jpg": "/Techcare/static/media/nurse.1c032dfa.jpg",
+    "static/media/physio.e07ed240.png": "/Techcare/static/media/physio.e07ed240.png",
+    "static/media/saline.68867f37.png": "/Techcare/static/media/saline.68867f37.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ab0e22d.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.7bd02093.chunk.js",
+    "static/css/main.89b94ecb.chunk.css",
+    "static/js/main.a2a537b4.chunk.js"
+  ]
+}
