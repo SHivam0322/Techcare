@@ -174,7 +174,7 @@ const Register = ({ submitForm }) => {
                         type="contactnumber"
                         rows='1'                                                                                                                                                                                                                                                                                                                                                                                                           
                          name="contactnumber"
-                        placeholder="Enter your Full name"
+                        placeholder=""
                         value={values.contactnumber}
                         onChange={handleChange}
                       />

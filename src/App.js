@@ -27,6 +27,7 @@ function App() {
     <Route exact path='/signup' component={Form}/>
     <Route exact path='/login' component={Forml}/>
     <Route exact path='/register' component={FormRegister}/>
+    <Route exact path='/' component={Home}/>
     </Switch>
    </>
   );

@@ -1,6 +1,6 @@
 .forml-container {
   margin-left: 30vw;
-  margin-top: 10vw;
+  margin-top: 10vh;
   width: 20vw;
   margin-bottom: 10vh;
   /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2); */
@@ -65,9 +65,9 @@ margin-top: 0vw;
 }
 .formverifyl-content-right{
    margin-left:10vw;
-    margin-top: 5vh;
+    margin-top: 15vh;
     width:25vw;
-    height: 40vh;
+    height: 45vh;
     position: relative;
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
   }
@@ -76,7 +76,7 @@ margin-top: 0vw;
 .forml-content-right {
   margin-top: 5vh;
   width:35vw;
-  height: 70vh;
+  height: 80vh;
   position: relative;
   background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
 }

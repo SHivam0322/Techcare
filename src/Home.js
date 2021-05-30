@@ -17,12 +17,12 @@ const Home = () => {
               <div className="col-md-6 my-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column  justify-content-center">
                 <h1>
                   {" "}
-                  Get Part-Time,Full-Time specialized nurses at a minimum price with,{" "}
+                  Get Part-Time,Full-Time specialized nurses , Caretakers and Physiotherapists at a minimum price with,{" "}
                   <h1 className="techcare">TechCare •</h1>
                 </h1>
                 <h3 className="my-2">We are know to Take-Care !!</h3>
                 <div className="mt-3">
-                  <NavLink to="/">
+                  <NavLink to="getservice">
                     <button className="getservice-btn">Get Service</button>
                   </NavLink>
                 </div>
