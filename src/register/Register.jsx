@@ -220,7 +220,7 @@ const Register = ({ submitForm }) => {
                      name='specialization'
                      onChange={handleChange}
                      value={values.specialization}>
-                         <option selected>Please select your highest specialization</option>
+                         <option selected className='formr-label'>Please select your highest specialization</option>
                          <option values='' className='formr-label'>10th</option>
                          <option values='' className='formr-label'>12th</option>
                          <option values='' className='formr-label'>B.Sc. Nursing</option>
@@ -252,7 +252,7 @@ const Register = ({ submitForm }) => {
                          <option values='' className='formr-label'>PhD (Nursing)</option>
                          <option values='' className='formr-label'>M.Phil Nursing</option>
                          <option values='' className='formr-label'>Post Basic Diploma in Critical Care Nursing</option>
-                         <option values='' classNa3me='formr-label'>Post Basic Diploma in Orthopedic & Rehabilitation Nursing</option>
+                         <option values='' className='formr-label'>Post Basic Diploma in Orthopedic & Rehabilitation Nursing</option>
                          <option values='' className='formr-label'>Post Basic Diploma in Operation Room Nursing</option>
                          <option values='' className='formr-label'>Post Graduate Diploma in Paediatric Critical Care Nursing</option>
                          <option values='' className='formr-label'>Post Basic Diploma in Ontological Nursing and Rehabilitation Nursing</option>

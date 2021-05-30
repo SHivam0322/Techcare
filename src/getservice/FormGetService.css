@@ -1,7 +1,7 @@
-.formr-container{
+.formgs-container{
     margin-top:5vh;
     width:100vw;
-    margin-left: 8vw;
+    /* margin-left: 8vw; */
     /* box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2); */
     position:relative;
     border-radius: 10px;
@@ -10,29 +10,29 @@
     grid-template-columns:1fr 1fr;
 }
 
-.formr-success{
+.formgs-success{
     text-align: center;
     font-size: 24px;
     margin-top: 80px;
     color:#fff;
 }
 
-.formr-success-acc{
+.formgs-success-acc{
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
     color:#fff;
 }
 
-.formr-content-right{
+.formgs-content-right{
     width:100vw;
     border-radius: 0 10px 10px 0;
     position: relative;
 }
 
-.formr{
-    margin-left: -10vw;
-    margin-bottom: 100vh;
+.formgs{
+    margin-left: -15vw;
+    /* margin-bottom: 100vh; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,7 +46,7 @@
     align-items: flex-start;
 }
 
-.formr h1{
+.formgs h1{
     font-size: 1rem;
     text-transform: uppercase;
     width: 100%;
@@ -62,19 +62,19 @@
     color: black;
 }
 
-.formr-inputs{
+.formgs-inputs{
     margin-bottom: 0.5rem;
     width: 80%;
 }
 
-.formr-inputs p{
+.formgs-inputs p{
     font-size: 0.8rem;
     font-weight: 500;
     margin-top: 3px;
     color: #f00e0e;
 }
 
-.formr-label{
+.formgs-label{
     display: inline-block;
     font-size: 0.8rem;
     margin-bottom: 6px;
@@ -89,7 +89,7 @@
     color: black;
 }
 
-.formr-check-label{
+.formgs-check-label{
     display: inline-block;
     font-size: 0.8rem;
     margin-bottom: 6px;
@@ -97,7 +97,7 @@
     font-weight: 500;
 }
 
-.formr-input{
+.formgs-input{
     display: block;
     padding-left: 10px;
     outline: none;
@@ -108,21 +108,21 @@
     background-color:whitesmoke;
 }
 
-.formr-input::placeholder{
+.formgs-input::placeholder{
     color: black;
     font-size: 12px;
 }
 
-.formr-input-btn {
+.formgs-input-btn {
     width: 20vw;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 100vh;
+    margin-bottom: 10vh;
     border-radius: 2px;
-    margin-left: -10vw;
+    margin-left: -15vw;
     background: linear-gradient(
       90deg,
       rgb(39, 176, 255) 0%,
@@ -134,7 +134,7 @@
     font-size: 1rem;
   }
   
-  .formr-input-btn:hover {
+  .formgs-input-btn:hover {
     cursor: pointer;
     background: linear-gradient(
       90deg,
@@ -144,7 +144,7 @@
     transition: all 0.4s ease-out;
   }
 
-  .formr-input-login{
+  .formgs-input-login{
       font-size: 0.8rem;
       margin-top: 10px;
       color: white;
@@ -152,7 +152,7 @@
       text-align: center;
   }
 
-  .formr-control{
+  .formgs-control{
       display: block;
       padding-left: 10px;
       outline: none;
@@ -181,7 +181,7 @@
     font-weight: 500;
   }
 
-  .formrr-success-acc{
+  .formgsr-success-acc{
       display: block;
       text-align: start;
       font-size: 24px;
@@ -200,11 +200,11 @@
       color:tomato;
   }
 
-  .formrr-content-right{
+  .formgsr-content-right{
       color: black;
   }
 
-  .formrr-text{
+  .formgsr-text{
       display: block;
       width: 20vw;
       margin-left: 4vw;

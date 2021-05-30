@@ -31,8 +31,8 @@
 }
 
 .formr{
-    margin-left: -10vw;
-    margin-bottom: 100vh;
+    margin-left: -15vw;
+    /* margin-bottom: 100vh; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -120,9 +120,9 @@
     font-weight: 600;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 100vh;
+    margin-bottom: 10vh;
     border-radius: 2px;
-    margin-left: -10vw;
+    margin-left: -15vw;
     background: linear-gradient(
       90deg,
       rgb(39, 176, 255) 0%,

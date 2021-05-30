@@ -185,6 +185,13 @@ margin-top: 0vw;
 
 .signupsuccess{
   margin-left: -20vw;
-  margin-top:10vh;
+  margin-top:5vh;
 }
 
+.sexy{
+ background-color: #27cdff; 
+ width:100vw;
+ margin-top: 100vh;
+ display: inline-block;
+ align-items: start;
+}

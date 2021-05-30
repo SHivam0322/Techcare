@@ -14,16 +14,16 @@ const GetService = ({ submitForm }) => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-10 mx-auto mb-2">
-            <div className="formr-content-right">
-              <form onSubmit={handleSubmit} className="formr" noValidate>
+            <div className="formgs-content-right">
+              <form onSubmit={handleSubmit} className="formgs" noValidate>
                 <h1 className="firsth1">Patient & disease details</h1>
 
-                <div className="formr-inputs">
+                <div className="formgs-inputs">
                   <div className="row">
                     <div className="col-md-9">
-                      <label className="formr-label">Patient name</label>
+                      <label className="formgs-label">Patient name</label>
                       <input
-                        className="formr-input"
+                        className="formgs-input"
                         type="patientnamne"
                         name="patientnamne"
                         placeholder="Enter your Full name"
@@ -33,9 +33,9 @@ const GetService = ({ submitForm }) => {
                       {errors.patientnamne && <p>{errors.patientnamne}</p>}
                     </div>
                     <div className="mb-3 col-md-3">
-                      <label className="formr-label">Age</label>
+                      <label className="formgs-label">Age</label>
                       <input
-                        className="formr-input"
+                        className="formgs-input"
                         rows="1"
                         type="number"
                         name="age"
@@ -47,12 +47,12 @@ const GetService = ({ submitForm }) => {
                     </div>
                   </div>
                 </div>
-                <div className="formr-inputs mt-1">
-                  <legend class="formr-label pt-0">Gender</legend>
+                <div className="formgs-inputs mt-1">
+                  <legend class="formgs-label pt-0">Gender</legend>
                   <div>
-                    <div class="formr-check form-check-inline">
+                    <div class="formgs-check form-check-inline">
                       <input
-                        class="formr-check-input"
+                        class="formgs-check-input"
                         type="radio"
                         name="gender"
                         value="male"
@@ -60,15 +60,15 @@ const GetService = ({ submitForm }) => {
                         onChange={handleChange}
                       />
                       <label
-                        class="formr-check-label pt-1"
+                        class="formgs-check-label pt-1"
                         for="inlineCheckbox1"
                       >
                         &nbsp;&nbsp;Male
                       </label>
                     </div>
-                    <div class="formr-check form-check-inline">
+                    <div class="formgs-check form-check-inline">
                       <input
-                        class="formr-check-input"
+                        class="formgs-check-input"
                         type="radio"
                         name="gender"
                         value="female"
@@ -76,7 +76,7 @@ const GetService = ({ submitForm }) => {
                         onChange={handleChange}
                       />
                       <label
-                        class="formr-check-label pt-1"
+                        class="formgs-check-label pt-1"
                         for="inlineCheckbox2"
                       >
                         &nbsp;&nbsp;Female
@@ -85,11 +85,11 @@ const GetService = ({ submitForm }) => {
                     {errors.gender && <p>{errors.gender}</p>}
                   </div>
                 </div>
-                <div className="formr-inputs mt-2">
+                <div className="formgs-inputs mt-2">
                   <div className="col-md-12">
-                    <label className="formr-label">Disease Details / Pregnacy Details</label>
+                    <label className="formgs-label">Disease Details / Pregnacy Details</label>
                     <textarea
-                      className="formr-input"
+                      className="formgs-input"
                       type="diseasedetails"
                       name="diseasedetails"
                       placeholder="Diagnosed disease with patient condition"
@@ -100,16 +100,16 @@ const GetService = ({ submitForm }) => {
                   </div>
                   </div>
                   
-                <div className="formr-inputs mt-2">
+                <div className="formgs-inputs mt-2">
                 <div className='row'>
                   <div class="input-group" className="mb-3 col-md-4">
-                    <label class="formr-label" className="formr-label">
+                    <label class="formgs-label" className="formgs-label">
                       Latest Prescription
                     </label>
                     <input
                       type="file"
-                      class="formr-control"
-                      className="formr-label"
+                      class="formgs-control"
+                      className="formgs-label"
                       id="inputGroupFile04"
                       aria-describedby="inputGroupFileAddon04"
                       aria-label="Upload"
@@ -120,12 +120,12 @@ const GetService = ({ submitForm }) => {
                     {errors.prescription && <p>{errors.prescription}</p>}
                   </div>
                   <div class="input-group" className="mb-3 mx-5 col-md-4">
-                    <label class="formr-label" className="formr-label">
+                    <label class="formgs-label" className="formgs-label">
                     Aadhar Card</label>
                     <input
                       type="file"
-                      class="formr-control"
-                      className="formr-label"
+                      class="formgs-control"
+                      className="formgs-label"
                       id="inputGroupFile04"
                       aria-describedby="inputGroupFileAddon04"
                       aria-label="Upload"
@@ -138,11 +138,11 @@ const GetService = ({ submitForm }) => {
                 </div>
                 </div>
                
-                <div className="formr-inputs mt-2">
+                <div className="formgs-inputs mt-2">
                   <div className="col-md-12">
-                    <label className="formr-label">Address (Location where service is needed)</label>
+                    <label className="formgs-label">Address (Location where service is needed)</label>
                     <textarea
-                      className="formr-input"
+                      className="formgs-input"
                       type="address"
                       name="address"
                       placeholder="Plot no,society,street"
@@ -152,15 +152,15 @@ const GetService = ({ submitForm }) => {
                     {errors.address && <p>{errors.address}</p>}
                   </div>
                 </div>
-                <div className="formr-inputs mt-2">
+                <div className="formgs-inputs mt-2">
                 <div className='row'>
                     <div className='mb-3 col-md-4'>
-                        <label class='formr-label' className='formr-label'>
+                        <label class='formgs-label' className='formgs-label'>
                             City
                         </label>
                         <input
-                        class='formr-control'
-                        className='formr-input'
+                        class='formgs-control'
+                        className='formgs-input'
                         id='exampleFormContrlTextarea1'
                         rows='1'
                         name="city"
@@ -169,12 +169,12 @@ const GetService = ({ submitForm }) => {
                         {errors.city && <p>{errors.city}</p>}
                     </div>
                     <div className='mb-3 col-md-4'>
-                        <label class='formr-label' className='formr-label'>
+                        <label class='formgs-label' className='formgs-label'>
                            State
                         </label>
                         <input
-                        class='formr-control'
-                        className='formr-input'
+                        class='formgs-control'
+                        className='formgs-input'
                         id='exampleFormContrlTextarea1'
                         rows='1'
                         name="state"
@@ -183,12 +183,12 @@ const GetService = ({ submitForm }) => {
                         {errors.state && <p>{errors.state}</p>}
                     </div>
                     <div className='mb-3 col-md-4'>
-                        <label class='formr-label' className='formr-label'>
+                        <label class='formgs-label' className='formgs-label'>
                            Pincode
                         </label>
                         <input
-                        class='formr-control'
-                        className='formr-input'
+                        class='formgs-control'
+                        className='formgs-input'
                         id='exampleFormContrlTextarea1'
                         rows='1'
                         name="zip"
@@ -199,10 +199,10 @@ const GetService = ({ submitForm }) => {
                 </div>
                 <div className='row mt-2'>
                 <div className="col-md-4 mb-3">
-                      <label class='formr-label' className="formr-label">Contact Number</label>
+                      <label class='formgs-label' className="formgs-label">Contact Number</label>
                       <input
                       class='form-control'
-                        className="formr-input"
+                        className="formgs-input"
                         type="contactnumber"
                         rows='1'                                                                                                                                                                                                                                                                                                                                                                                                           
                          name="contactnumber"
@@ -213,10 +213,10 @@ const GetService = ({ submitForm }) => {
                       {errors.contactnumber && <p>{errors.contactnumber}</p>}
                     </div> 
                     <div className="col-md-4 mb-3">
-                      <label class='formr-label' className="formr-label">Contact Number 2</label>
+                      <label class='formgs-label' className="formgs-label">Contact Number 2</label>
                       <input
                       class='form-control'
-                        className="formr-input"
+                        className="formgs-input"
                         type="contactnumber2"
                         rows='1'                                                                                                                                                                                                                                                                                                                                                                                                           
                          name="contactnumber2"
@@ -229,7 +229,7 @@ const GetService = ({ submitForm }) => {
                 </div>
                 </div>
         
-                 <div className="formr-inputs">
+                 <div className="formgs-inputs">
                  <div className='col-12 my-4'>
                      <div class='form-check'>
                          <input class='form-check-input' type='checkbox' id='gridcheck'
@@ -246,7 +246,7 @@ const GetService = ({ submitForm }) => {
                  </div>
                  <div class='col-12 mb-200 text-center'>
                      <button
-                     className='formr-input-btn'
+                     className='formgs-input-btn'
                      type='submit'
                      onClick={handleSubmit}>
                      Submit Details
