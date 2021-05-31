@@ -13,12 +13,12 @@ import {NavLink} from 'react-router-dom'
 const Block2 = () => {
     return (
        <>
-        <div className="container-fluid">
+        <div className="container-fluid" data-bs-spy='scroll' id='services'>
           <div className="row">
             <div className="col-10 mx-auto">
                 <div className='row'>
                     
-                <div className="card-group" >
+                <div className="card-group"  >
   
   <div className="card border-0">
     <img src={physio} className="card-img-top pt-3" alt="..."/>

@@ -239,7 +239,7 @@ const GetService = ({ submitForm }) => {
                          <label
                          className='agreebox'
                          class='form-check-label'
-                         for='gridCheck'>I agree to the <a className='scsrrtlink' href=''>Terms & Conditions.</a>
+                         for='gridCheck'>I agree to the <a className='scsrrtlink' href='terms and conditions'>Terms & Conditions.</a>
                          </label>{errors.agreebox && <p>{errors.agreebox}</p>}
                      </div>
                  </div>

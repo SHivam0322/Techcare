@@ -12,6 +12,8 @@ import Forml from './Loginform/Forml'
 import FormRegister from './register/FormRegister';
 import FormGetService from './getservice/FormGetService';
 import About from './About';
+import TermsConditions from './TermsConditions';
+import Privacypolicy from './Privacypolicy';
 
 
 
@@ -23,7 +25,8 @@ function App() {
     <>
     <Navbar/>
     <Switch>
-  
+      <Route exact path='/privacy policy' component={Privacypolicy}/>
+    <Route exact path='/terms and conditions' component={TermsConditions}/>
       <Route exact path='/about' component={About}/>
     <Route exact path='/getservice' component={FormGetService}/>
     <Route exact path='/contact' component={Contact}/>

@@ -1,7 +1,7 @@
 .forml-container {
   margin-left: 30vw;
   margin-top: 10vh;
-  width: 20vw;
+  width: 80vw;
   margin-bottom: 10vh;
   /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2); */
   position: relative;
@@ -11,7 +11,7 @@
 }
 .verify-forml-container{
 margin-top: 0vw;
-  width: 5vw;
+  width: 60vw;
   margin-bottom: 10vh;
   /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2); */
   position: relative;
@@ -25,7 +25,7 @@ margin-top: 0vw;
   right: 3%;
   font-size: 1.5rem;
   z-index: 1;
-  color: #fff;
+  color: vlack;
   cursor: pointer;
 }
 
@@ -61,24 +61,24 @@ margin-top: 0vw;
   text-align: center;
   font-size: 24px;
   margin-top: 80px;
-  color: #fff;
+  color: vlack;
 }
 .formverifyl-content-right{
-   margin-left:10vw;
+   margin-left:5vw;
     margin-top: 15vh;
-    width:25vw;
+    width:60vw;
     height: 45vh;
     position: relative;
-    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+    /* background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%); */
   }
   
 
 .forml-content-right {
   margin-top: 5vh;
-  width:35vw;
+  width:60vw;
   height: 80vh;
   position: relative;
-  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  /* background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%); */
 }
 
 .forml {
@@ -98,13 +98,14 @@ margin-top: 0vw;
   font-size: 1rem;
   text-align: start;
   width: 80%;
+  margin-left:13vw;
   margin-bottom: 1rem;
-  color: #fff;
+  color: black;
 }
 
 .forml-inputs {
   margin-bottom: 0.5rem;
-  width: 80%;
+  width: 30vw;
 }
 
 .forml-inputs p {
@@ -118,7 +119,7 @@ margin-top: 0vw;
   font-size: 0.8rem;
   font-weight: 600;
   margin-bottom: 6px;
-  color: #fff;
+  color: vlack;
 }
 
 .forml-input {
@@ -129,6 +130,8 @@ margin-top: 0vw;
   height: 40px;
   width: 100%;
   border: none;
+  background-color:whitesmoke;
+  
 }
 
 .forml-input::placeholder {
@@ -137,7 +140,7 @@ margin-top: 0vw;
 }
 
 .forml-input-btn {
-  width: 80%;
+  width: 30vw;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 600;
@@ -151,7 +154,7 @@ margin-top: 0vw;
   );
   outline: none;
   border: none;
-  color: #fff;
+  color: vlack;
   font-size: 1rem;
 }
 
@@ -168,7 +171,7 @@ margin-top: 0vw;
 .forml-input-login {
   font-size: 0.8rem;
   margin-top: 10px;
-  color: #fff;
+  color: vlack;
   width: 80%;
   text-align: center;
 }

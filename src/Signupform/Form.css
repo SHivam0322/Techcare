@@ -1,5 +1,5 @@
 .form-container {
-  margin-left: 30vw;
+  margin-left: 15vw;
   margin-top: 10px;
   width: 40vw;
   margin-bottom: 10vh;
@@ -53,26 +53,28 @@ margin-top: 0vw;
   text-align: center;
   font-size: 24px;
   margin-top: 80px;
-  color: #fff;
+  color: black;
 }
 .formverify-content-right{
-   margin-left:10vw;
+   margin-left:5vw;
     margin-top: 5vh;
-    width:25vw;
+    width:60vw;
     height: 40vh;
     position: relative;
-    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+    /* background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%); */
   }
   
 
 .form-content-right {
   margin-top:20px;
-  width:35vw;
+  width:60vw;
   /* margin-left: -20vw; */
   height: 70vh;
   position: relative;
-  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  /* background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%); */
 }
+
+
 
 .form {
   position: absolute;
@@ -89,15 +91,16 @@ margin-top: 0vw;
 
 .form h1 {
   font-size: 1rem;
+  margin-left: 18vw;
   text-align: start;
   width: 80%;
   margin-bottom: 1rem;
-  color: #fff;
+  color: black;
 }
 
 .form-inputs {
   margin-bottom: 0.5rem;
-  width: 80%;
+  width: 30vw;
 }
 
 .form-inputs p {
@@ -111,7 +114,7 @@ margin-top: 0vw;
   font-size: 0.8rem;
   font-weight: 600;
   margin-bottom: 6px;
-  color: #fff;
+  color: black;
 }
 
 .form-input {
@@ -122,6 +125,7 @@ margin-top: 0vw;
   height: 40px;
   width: 100%;
   border: none;
+  background-color: whitesmoke;
 }
 
 .form-input::placeholder {
@@ -130,7 +134,7 @@ margin-top: 0vw;
 }
 
 .form-input-btn {
-  width: 80%;
+  width: 30vw;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 600;
@@ -144,7 +148,7 @@ margin-top: 0vw;
   );
   outline: none;
   border: none;
-  color: #fff;
+  color: black;
   font-size: 1rem;
 }
 
@@ -161,7 +165,7 @@ margin-top: 0vw;
 .form-input-login {
   font-size: 0.8rem;
   margin-top: 10px;
-  color: #fff;
+  color: black;
   width: 80%;
   text-align: center;
 }
@@ -184,14 +188,10 @@ margin-top: 0vw;
 
 
 .signupsuccess{
-  margin-left: -20vw;
+  margin-left: 3vw;
   margin-top:5vh;
 }
 
-.sexy{
- background-color: #27cdff; 
- width:100vw;
- margin-top: 100vh;
- display: inline-block;
- align-items: start;
+.signupsuccess-img{
+  margin-left: -2vw;
 }

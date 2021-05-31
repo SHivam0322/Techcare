@@ -10,7 +10,11 @@ const FormSignup = ({ submitForm }) => {
   );
 
   return (
-    <div className='form-content-right'>
+    <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 mx-auto">
+                <div className='row'></div>
+    <div className='form-content-right d-flex flex-column'>
       <form onSubmit={handleSubmit} className='form' noValidate>
         <h1>
         Create Account
@@ -72,6 +76,10 @@ const FormSignup = ({ submitForm }) => {
         </span>
       </form>
     </div>
+    </div>
+    </div>
+    </div>
+    
   );
 };
 

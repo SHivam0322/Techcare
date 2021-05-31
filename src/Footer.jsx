@@ -22,8 +22,8 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
 						
 						<li><NavLink to="">FAQ</NavLink></li>
-						<li><NavLink to="">Terms & Conditions</NavLink></li>
-						<li><NavLink to="">Privacy Policy</NavLink></li>
+						<li><NavLink to="terms and conditions">Terms & Conditions</NavLink></li>
+						<li><NavLink to="privacy policy">Privacy Policy</NavLink></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
@@ -31,7 +31,7 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
 						<li><NavLink to="/contact">Contact Us</NavLink></li>
 						<li><NavLink to="/login">Login</NavLink></li>
-						<li><NavLink to="/services">Services</NavLink></li>
+						<li><a href='#services'>Services</a></li>
 						
 						
 					</ul>

@@ -12,18 +12,18 @@ const block = () => {
     <div className="carousel-inner">
       <div className="carousel-item overflow-auto active text-center"  data-bs-interval="5000">
       <h2>Why choose us ?</h2>
-      <p className='text-block'>We are commited to provide the best nursing services to our consumers at a minimum price.We have a wide network of super specialized nurses across many cities in India.Let us take care of your loved ones.<br/><NavLink className='carousel-btns' to='getservice'>Get Service</NavLink></p>
+      <p className='text-block'>We are commited to provide the best healthcare services to our consumers at a minimum price.A wide network of super specialized nurses ,physiotherapists and caretakers across many cities in India.Let us take care of your loved ones.<br/><NavLink className='carousel-btns' to='getservice'>Get Service</NavLink></p>
       
       </div>
       <div className="carousel-item overflow-auto text-center" data-bs-interval="5000">
        <h2>For Providers</h2>
        <p className='text-block'>TechCare gives you an opportunity to serve the world with ur skills and experience and help us in our initiative of serving the best to the world.
-       Keep growing with us and get a source of income. <br/><NavLink className='carousel-btns' to='/register'>Register your Service</NavLink></p>
+       Keep growing with us and get a part-time source of income. <br/><NavLink className='carousel-btns' to='/register'>Register your Service</NavLink></p>
       
       </div>
       <div className="carousel-item overflow-auto text-center">
         <h2>TechCare</h2>
-        <p className='text-block'>A free to use initiative in order to provide best nursing services at a very considerable cost.Your search for trustworthy online nursing services ends here.Want to Know more about us.<br/><NavLink className='carousel-btns' to='about'>About us</NavLink></p>
+        <p className='text-block'>A free to use initiative in order to provide best healthcare services at a very considerable cost.Your search for trustworthy online nursing services ends here.Want to Know more about us.<br/><NavLink className='carousel-btns' to='about'>About us</NavLink></p>
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

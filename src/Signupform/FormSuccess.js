@@ -11,7 +11,7 @@ const FormSuccess = () => {
         <div className="col-12 mx-auto">
           <div className='signupsuccess'>
             <div className='row'>
-          <div className="col-md-7 mx-5  pt-lg-0 order-2 order-lg-1 d-flex flex-column  justify-content-center">
+          <div className="col-md-7   pt-lg-0 order-2 order-lg-1 d-flex flex-column  justify-content-center">
           <div className='signupsuccesstext'>
           <h1 className="techcare">TechCare •</h1>
             <h1>
